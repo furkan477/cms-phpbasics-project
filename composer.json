@@ -1,0 +1,20 @@
+{
+    "name": "dell/cms",
+    "description": "Phpbasics cms projesi.",
+    "autoload": {
+        "psr-4": {
+            "App\\": "./App",
+            "Core\\": "./Core"  
+        },
+        "files": ["./App/helpers/app.php"]
+    },
+    "authors": [
+        {
+            "name": "Furkan KAYA",
+            "email": "furkankaya00027@gmail.com"
+        }
+    ],
+    "require": {
+        "bramus/router": "^1.6"
+    }
+}
